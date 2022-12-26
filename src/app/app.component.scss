@@ -1,0 +1,12 @@
+.news-container {
+  padding: 0;
+  width: 90%;
+  margin: 3em auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 5px;
+
+  align-items: center;
+}

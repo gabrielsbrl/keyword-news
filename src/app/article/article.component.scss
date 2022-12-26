@@ -1,0 +1,23 @@
+.article {
+  width: 200px;
+  position: relative;
+  flex: 0 1 calc(20% - 10px);
+}
+
+.article-title {
+  background-color: #fff;
+  position: absolute;
+  padding: 10px 5px;
+  font-size: 14px;
+  bottom: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.article-image {
+  width: auto;
+  height: 200px;
+}

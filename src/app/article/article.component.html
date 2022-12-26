@@ -1,6 +1,8 @@
-<section>
-  <article>
-    <p>{{ article.title }}</p>
-    <img [src]="article.urlToImage" [alt]="article.title">
-  </article>
-</section>
+<article class="article">
+  <p class="article-title">{{ article.title }}</p>
+  <img
+    [src]="article.urlToImage"
+    [alt]="article.title"
+    class="article-image"
+  >
+</article>

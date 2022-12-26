@@ -1,6 +1,6 @@
 <input type="search" name="newsKeyword" [formControl]="newsKeywordControl">
 
-<ul>
+<ul class="news-container">
   <li *ngFor="let article of articles">
     <app-article [article]="article"></app-article>
   </li>

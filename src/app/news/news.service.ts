@@ -10,8 +10,8 @@ export class NewsService {
   constructor(private _httpClient: HttpClient) { }
 
   getNewsByKeyword(keyword: string) {
-    let date = "2022-12-25";
+    let dateFrom = "2022-12-25";
 
-    return this._httpClient.get<ArticlesResponse>(`https://newsapi.org/v2/everything?q=${keyword}&from=${date}&sortBy=popularity`);
+    return this._httpClient.get<ArticlesResponse>(`https://newsapi.org/v2/everything?q=${keyword}&from=${dateFrom}&sortBy=popularity&language=en`);
   }
 }
